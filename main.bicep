@@ -1,4 +1,4 @@
-@minLength(3)
+@minLength(5)
 @maxLength(24)
 param storageName string
 
