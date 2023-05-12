@@ -9,7 +9,7 @@ param appServiceAppName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 param environmentType string
 
 var appServicePlanName = 'adstorefortoykids-launch-1'
-var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
+var storageAccountSkuName = (environmentType == 'nonprod') ? 'Standard_GRS' : 'Standard_LRS'
 var appServicePlanSkuName = (environmentType == 'prod') ? 'P2v3' : 'F1'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
