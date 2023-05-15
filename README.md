@@ -25,8 +25,7 @@ To get started with Bicep and this repository, follow these steps:
 
 1. **Install Bicep CLI**: Install the Bicep CLI on your local machine. Instructions can be found in the [Bicep documentation](https://docs.microsoft.com/azure/azure-resource-manager/bicep/install).
 2. **Clone the repository**: Clone this repository to your local machine using the Git command: git clone https://github.com/AlpeshDanilkumar/Azure-Biceps.git.
-3. **Compile the templates**: Use the Bicep CLI to compile the Bicep templates into ARM templates. Run the command `bicep build ./templates/template.bicep` to generate the corresponding ARM template.
-4. **Deploy the infrastructure**: Use the Azure CLI or Azure Portal to deploy the compiled ARM template to your Azure subscription. Follow the deployment instructions provided in the template documentation.
+3. **Deploy the infrastructure**: Use the Azure CLI or Azure Portal to deploy the compiled ARM template to your Azure subscription. Follow the deployment instructions provided in the template documentation.
 
 ## Additional Resources
 
