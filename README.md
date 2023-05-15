@@ -14,6 +14,10 @@ Bicep templates are compiled into ARM templates, which are then deployed to Azur
 - **Better tooling**: Bicep integrates with popular code editors and provides features like IntelliSense, auto-completion, and error checking.
 - **Seamless integration**: Bicep integrates seamlessly with existing ARM templates, enabling a gradual migration from JSON to Bicep.
 
+## Repository Purpose
+
+The purpose of this repository is to document my ongoing learning and experiences with Bicep. It serves as a place where I can store and share my Bicep templates, showcasing different deployment scenarios and best practices. The repository will be regularly updated as I continue to learn and improve my skills in working with Azure infrastructure as code.
+
 
 ## Getting Started
 
